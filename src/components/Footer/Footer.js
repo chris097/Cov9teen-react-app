@@ -27,13 +27,13 @@ const Footer = () => {
                         <div className="useful-link-content">
                             <h2>Useful Links</h2>
                             <div>
-                                <a href="#Home">WHO Information</a>
+                                <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">WHO Information</a>
                             </div>
                             <div>
-                                <a href="#Home">Covid-19 wikipedia</a>
+                                <a href="https://en.wikipedia.org/wiki/Coronavirus_disease_2019">Covid-19 wikipedia</a>
                             </div>
                             <div>
-                                <a href="#Home">World Information on Covid-19</a>
+                                <a href="https://www.worldometers.info/coronavirus/">World Information on Covid-19</a>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const Footer = () => {
                         <a href="https://twitter.com/ChrisFidel7">
                             <img src={TwitterIcon} alt=""/>
                         </a>
-                        <a href="https://github.com/chris097/Cov19Strain">
+                        <a href="https://github.com/chris097/Cov9teen-react-app">
                             <img src={GithubIcon} alt=""/>
                         </a>
                     </div>
