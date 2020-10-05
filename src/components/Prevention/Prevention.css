@@ -1,0 +1,118 @@
+.cov19-sectionD{
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.1);
+    padding-top: 50px;
+    margin-top: 50px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.cov19-sectionD .sectionD-prevention{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cov19-sectionD .sectionD-prevention .prevention-text > h1{
+    font-size: 36px;
+    line-height: 1.4;
+}
+.cov19-sectionD .sectionD-prevention .prevention-text > p{
+    font-size: 15px;
+    color: #5F6368;
+    line-height: 1.5;
+    width: 500px;
+}
+
+.cov19-sectionD .sectionD-prevention .prevention-text .prevention-tips > p{
+    font-size: 18px;
+    font-weight: 600;
+    color: 000000;
+}
+.cov19-sectionD .sectionD-prevention .prevention-text .prevention-tips > p span{
+    color: #16B442;
+}
+
+.cov19-sectionD .sectionD-prevention .prevention-card,
+.cov19-sectionD .sectionD-prevention .prevention-card-1{
+    display: flex;
+}
+
+.cov19-sectionD .sectionD-prevention .prevention-card-1{
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cov19-sectionD .sectionD-prevention .prevention-card .prevention-container .facemask,
+.cov19-sectionD .sectionD-prevention .prevention-card .prevention-container .headache,
+.cov19-sectionD .sectionD-prevention .prevention-card .prevention-container .aviod-contact,
+.cov19-sectionD .sectionD-prevention .prevention-card-1 .prevention-container .keep-dist,
+.cov19-sectionD .sectionD-prevention .prevention-card-1 .prevention-container .stay-home{
+    width: 154px;
+    height: 151px;
+    background: #FFFFFF;
+    border: 1px solid #F1F4FA;
+    border-radius: 5px;
+    padding-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.cov19-sectionD .sectionD-prevention .prevention-card .prevention-container .headache{
+    margin: 0 15px;
+}
+
+.cov19-sectionD .sectionD-prevention .prevention-card-1 .prevention-container .stay-home{
+    margin: 0 15px;
+}
+
+@media screen and (max-width: 1186px){
+    .cov19-sectionD .sectionD-prevention .prevention-text{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .cov19-sectionD .sectionD-prevention .prevention-text > p{
+        text-align: center;
+        width: 100%;
+    }
+    .cov19-sectionD .sectionD-prevention{
+        flex-direction: column;
+    }
+    
+    .cov19-sectionD .sectionD-prevention .prevention-card{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 555px){
+    .cov19-sectionD .sectionD-prevention > .prevention-image img{
+        width: 100%;
+    }
+    .cov19-sectionD .sectionD-prevention .prevention-card .prevention-container .facemask,
+    .cov19-sectionD .sectionD-prevention .prevention-card .prevention-container .headache,
+    .cov19-sectionD .sectionD-prevention .prevention-card .prevention-container .aviod-contact,
+    .cov19-sectionD .sectionD-prevention .prevention-card-1 .prevention-container .keep-dist,
+    .cov19-sectionD .sectionD-prevention .prevention-card-1 .prevention-container .stay-home{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 378px){
+    .cov19-sectionD .sectionD-prevention .prevention-card .prevention-container .facemask,
+    .cov19-sectionD .sectionD-prevention .prevention-card .prevention-container .headache,
+    .cov19-sectionD .sectionD-prevention .prevention-card .prevention-container .aviod-contact,
+    .cov19-sectionD .sectionD-prevention .prevention-card-1 .prevention-container .keep-dist,
+    .cov19-sectionD .sectionD-prevention .prevention-card-1 .prevention-container .stay-home{
+        width: 80px;
+    }
+}

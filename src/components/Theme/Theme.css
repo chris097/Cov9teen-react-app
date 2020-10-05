@@ -1,0 +1,11 @@
+.background-design .circle-red{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.background-design .circle-blue{
+    position: fixed;
+    right: 0;
+    top: 30px;
+}

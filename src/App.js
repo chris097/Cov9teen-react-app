@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from './components/Header/Header';
+import Theme from "./components/Theme/Theme";
+import Tracker from "./components/Tracker/Tracker";
+import Countries from "./components/Countries/Countries";
+import Symptoms from "./components/Symptoms/Symptoms";
+import Prevention from "./components/Prevention/Prevention";
+import Footer from "./components/Footer/Footer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+  return(
+    <>
+    {/* Header */}
+      <Header />
+    {/* Theme- background design */}
+    <Theme />
+    {/* Tracker */}
+    <Tracker />
+    {/* Countries */}
+    <Countries />
+    {/* Symptoms */}
+    <Symptoms />
+    {/* Prevention */}
+    <Prevention />
+    {/* Footer */}
+    <Footer />
+    </>
+  )
 }
 
 export default App;

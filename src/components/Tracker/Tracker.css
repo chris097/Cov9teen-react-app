@@ -1,0 +1,200 @@
+.cov19-sectionA{
+    padding-top: 100px;
+}
+
+.cov19-sectionA .sectionA-content h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.cov19-sectionA .sectionA-content .sectionA-frame{
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    font-family: Rubik;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cov19-sectionA .sectionA-content .sectionA-frame .frame-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cov19-sectionA .sectionA-content .sectionA-frame .card-1-container{
+    width: 250px;
+    height: 150px;
+    background: rgba(43, 111, 243, 0.05);
+    position: relative;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+.cov19-sectionA .sectionA-content .sectionA-frame .card-2-container{
+    width: 250px;
+    height: 150px;
+    background: rgba(243, 153, 17, 0.05);
+    position: relative;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    margin-left: 16.9px;
+    margin-right: 16.9px;
+}
+.cov19-sectionA .sectionA-content .sectionA-frame .card-3-container{
+    width: 250px;
+    height: 150px;
+    background: rgba(22, 180, 66, 0.05);
+    position: relative;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    margin-right: 16.9px;
+}
+.cov19-sectionA .sectionA-content .sectionA-frame .card-4-container{
+    width: 250px;
+    height: 150px;
+    background: rgba(170, 42, 42, 0.05);
+    position: relative;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+.cov19-sectionA .sectionA-content .sectionA-frame .card-1-content{
+    background: rgba(43, 111, 243, 0.05);
+    width: 100%;
+    height: 200px;
+    clip-path: circle();
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    justify-items: center;
+    margin: -25px auto;
+    position: absolute;
+}
+.cov19-sectionA .sectionA-content .sectionA-frame .card-2-content{
+    background: rgba(243, 153, 17, 0.05);
+    width: 100%;
+    height: 200px;
+    clip-path: circle();
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    justify-items: center;
+    margin: -25px auto;
+    position: absolute;
+}
+.cov19-sectionA .sectionA-content .sectionA-frame .card-3-content{
+    background: rgba(22, 180, 66, 0.05);
+    width: 100%;
+    height: 200px;
+    clip-path: circle();
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    justify-items: center;
+    margin: -25px auto;
+    position: absolute;
+}
+.cov19-sectionA .sectionA-content .sectionA-frame .card-4-content{
+    background: rgba(170, 42, 42, 0.05);
+    width: 100%;
+    height: 200px;
+    clip-path: circle();
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    justify-items: center;
+    margin: -25px auto;
+    position: absolute;
+}
+
+.cov19-sectionA .sectionA-content .sectionA-frame .card-1-content .card-items,
+.cov19-sectionA .sectionA-content .sectionA-frame .card-2-content .card-items,
+.cov19-sectionA .sectionA-content .sectionA-frame .card-3-content .card-items,
+.cov19-sectionA .sectionA-content .sectionA-frame .card-4-content .card-items{
+    padding: 40px 0;
+}
+
+.cov19-sectionA .sectionA-content .sectionA-frame .card-1-content .card-items .total-case,
+.cov19-sectionA .sectionA-content .sectionA-frame .card-2-content .card-items .total-case,
+.cov19-sectionA .sectionA-content .sectionA-frame .card-3-content .card-items .total-case,
+.cov19-sectionA .sectionA-content .sectionA-frame .card-4-content .card-items .total-case{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.cov19-sectionA .sectionA-content .sectionA-frame .card-1-content .card-items .total-case-num{
+    font-size: 28px;
+    line-height: 1.9;
+    color: #2B6FF3;
+    padding-top: 10px;
+}
+.cov19-sectionA .sectionA-content .sectionA-frame .card-2-content .card-items .total-case-num{
+    font-size: 28px;
+    line-height: 1.9;
+    color: #F39911;
+    padding-top: 10px;
+}
+.cov19-sectionA .sectionA-content .sectionA-frame .card-3-content .card-items .total-case-num{
+    font-size: 28px;
+    line-height: 1.9;
+    color: #16B442;
+    padding-top: 10px;
+}
+.cov19-sectionA .sectionA-content .sectionA-frame .card-4-content .card-items .total-case-num{
+    font-size: 28px;
+    line-height: 1.9;
+    color: #D63232;
+    padding-top: 10px;
+}
+.cov19-sectionA .sectionA-content .sectionA-frame .card-1-content .card-items .new-case,
+.cov19-sectionA .sectionA-content .sectionA-frame .card-2-content .card-items .new-case,
+.cov19-sectionA .sectionA-content .sectionA-frame .card-3-content .card-items .new-case,
+.cov19-sectionA .sectionA-content .sectionA-frame .card-4-content .card-items .new-case{
+    font-size: 14px;
+    line-height: 17px;
+    color: #777F8D;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 1200px){
+    .cov19-sectionA .sectionA-content .sectionA-frame{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .cov19-sectionA .sectionA-content .sectionA-frame .card-1-container,
+    .cov19-sectionA .sectionA-content .sectionA-frame .card-2-container,
+    .cov19-sectionA .sectionA-content .sectionA-frame .card-3-container,
+    .cov19-sectionA .sectionA-content .sectionA-frame .card-4-container{
+        width: 100%;
+    }
+    .cov19-sectionA .sectionA-content .sectionA-frame .card-3-container,
+    .cov19-sectionA .sectionA-content .sectionA-frame .card-4-container{
+        margin-top: 67px;
+    }
+    .cov19-sectionA .sectionA-content .sectionA-frame .card-2-container{
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .cov19-sectionA{
+        padding-top: 130px;
+    }
+    .cov19-sectionA .sectionA-content .sectionA-frame{
+        padding: 50px 10px;
+    }
+    .cov19-sectionA .sectionA-content .sectionA-frame .frame-container{
+        flex-direction: column;
+    }
+    .cov19-sectionA .sectionA-content .sectionA-frame .card-2-container{
+        margin-left: 0;
+        margin-top: 67px;
+    }
+}

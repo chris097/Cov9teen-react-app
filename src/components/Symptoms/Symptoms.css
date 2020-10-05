@@ -1,0 +1,58 @@
+.cov19-sectionC{
+    padding-top: 50px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.cov19-sectionC .sectionC-symptoms{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+
+.cov19-sectionC .sectionC-symptoms .symptoms-text > p{
+    width: 197px;
+    height: 39px;
+    color: #E81454;
+    background: rgba(232, 20, 84, 0.06);
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.cov19-sectionC .sectionC-symptoms .symptoms-text{
+    padding-top: 100px;
+}
+
+.cov19-sectionC .sectionC-symptoms .text-line{
+    width: 600px;
+}
+
+.cov19-sectionC .sectionC-symptoms img{
+    margin-right: 100px;
+}
+
+@media screen and (max-width: 1036px){
+    .cov19-sectionC .sectionC-symptoms .text-line{
+        width: 500px;
+    }
+    .cov19-sectionC .sectionC-symptoms img{
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 766px){
+    .cov19-sectionC .sectionC-symptoms .symptoms-text{
+        padding-top: 50px;
+    }
+    .cov19-sectionC .sectionC-symptoms .text-line{
+        width: 100%;
+    }
+    .cov19-sectionC .sectionC-symptoms img{
+        display: none;
+    }
+}
