@@ -76,7 +76,7 @@ const Countries = () => {
                         <div className="box-2-cards">
                             <div className="box-2-card-1">
                                 <h4>Total Cases</h4>
-                            <p className="primary-color">{!data.TotalConfirmed ? " 🥱 " : <NumberFormat value={`${data.TotalConfirmed}`} displayType={'text'} thousandSeparator={true} />}</p>
+                            <p className="primary-color">{!data.TotalConfirmed ? " 😭 " : <NumberFormat value={`${data.TotalConfirmed}`} displayType={'text'} thousandSeparator={true} />}</p>
                             </div>
                             <div className="box-2-card-2">
                                 <h4>Active Cases</h4>
