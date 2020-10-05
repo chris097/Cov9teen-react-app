@@ -53,7 +53,7 @@ const Tracker = () => {
                                             Actice Cases
                                         </div>
                                         <div className="total-case-num">
-                                        {!(data.TotalConfirmed - (data.TotalDeaths + data.TotalRecovered)) ? " 🧐 " : <NumberFormat value={`${(data.TotalConfirmed) - (data.TotalDeaths + data.TotalRecovered)}`} displayType={'text'} thousandSeparator={true} />}
+                                        {!(data.TotalConfirmed - (data.TotalDeaths + data.TotalRecovered)) ? " 😭 " : <NumberFormat value={`${(data.TotalConfirmed) - (data.TotalDeaths + data.TotalRecovered)}`} displayType={'text'} thousandSeparator={true} />}
                                         </div>
                                         <div className="new-case">{`+ `}
                                         <NumberFormat value={`${(data.NewConfirmed) - (data.NewRecovered + data.NewDeaths)}`} displayType={'text'} thousandSeparator={true} />
