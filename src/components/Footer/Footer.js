@@ -40,8 +40,8 @@ const Footer = () => {
                     <div className="emergency-num">
                         <h2>Emergency Numbers to call</h2>
                         <p>
-                        0908474646464
-                        0908474646464
+                        Call: 0800 9700 0010
+                        SMS:  +234 809 955 5577
                         </p>
                     </div>
                 </div>

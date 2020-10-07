@@ -10,7 +10,7 @@ import Home from "./home.svg";
 const Prevention = () => {
     return (
         <>
-        <div className="container">
+        <div className="container" id="prevention">
             <div className="cov19-sectionD">
                 <div className="sectionD-prevention">
                     <div className="prevention-image">

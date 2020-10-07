@@ -20,7 +20,7 @@ const Tracker = () => {
 
     return (
     <>
-        <section className="cov19-sectionA">
+        <section className="cov19-sectionA" id="tracker">
             <div className="container">
                 <div className="sectionA-content">
                     <h1>
@@ -37,7 +37,7 @@ const Tracker = () => {
                                             Total Cases
                                         </div>
                                         <div className="total-case-num">
-                                       {!data.TotalConfirmed ? " 🥱 " :  <NumberFormat value={data.TotalConfirmed} displayType={'text'} thousandSeparator={true} />}
+                                       {!data.TotalConfirmed ? " 😭 " :  <NumberFormat value={data.TotalConfirmed} displayType={'text'} thousandSeparator={true} />}
                                         </div>
                                         <div className="new-case">{`+ `}
                                         <NumberFormat value={`${data.NewConfirmed}`} displayType={'text'} thousandSeparator={true} />
@@ -53,7 +53,8 @@ const Tracker = () => {
                                             Actice Cases
                                         </div>
                                         <div className="total-case-num">
-                                        {!(data.TotalConfirmed - (data.TotalDeaths + data.TotalRecovered)) ? " 😭 " : <NumberFormat value={`${(data.TotalConfirmed) - (data.TotalDeaths + data.TotalRecovered)}`} displayType={'text'} thousandSeparator={true} />}
+                                        {!(data.TotalConfirmed - (data.TotalDeaths + data.TotalRecovered)) ? " 😭 " 
+                                        : <NumberFormat value={`${(data.TotalConfirmed) - (data.TotalDeaths + data.TotalRecovered)}`} displayType={'text'} thousandSeparator={true} />}
                                         </div>
                                         <div className="new-case">{`+ `}
                                         <NumberFormat value={`${(data.NewConfirmed) - (data.NewRecovered + data.NewDeaths)}`} displayType={'text'} thousandSeparator={true} />

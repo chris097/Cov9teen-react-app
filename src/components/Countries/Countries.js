@@ -23,14 +23,14 @@ const Countries = () => {
             setDataArr(res.data.Countries)
         })
         .catch(err => {
-            console.log(err)
+            console.log('404 error', err)
         })
     }, [])
 
     useEffect(() =>{
         axios.get(`${Url}/country/${data}`)
         .then(res => {
-            console.log(res.data[res.data.length -1])
+            // console.log(res.data[res.data.length -1])
             setData(res.data[res.data.length -1])
         })
         .catch(err => {

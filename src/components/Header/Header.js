@@ -15,9 +15,9 @@ const Header = () => {
                                 <span className="logo-text">Cov9teen</span>
                             </div>
                             <ul className="navigate-link">
-                                <li><a href="#Home">Home</a></li>
-                                <li><a href="#Home">Symptoms</a></li>
-                                <li><a href="#Home">Protection</a></li>
+                                <li><a href="#tracker">Home</a></li>
+                                <li><a href="#symptoms">Symptoms</a></li>
+                                <li><a href="#prevention">Prevention</a></li>
                             </ul>
                         </div>
                         <div className="set-date">

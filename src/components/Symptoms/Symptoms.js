@@ -6,7 +6,7 @@ import DoctorImage from "./doctor-woman 1.svg"
 const Symptoms = () =>{
     return (
         <>
-        <div className="container">
+        <div className="container" id="symptoms">
             <div className="cov19-sectionC">
                 <div className="sectionC-symptoms">
                     <div className="symptoms-text">
